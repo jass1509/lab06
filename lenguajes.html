@@ -27,3 +27,33 @@
       <a href="index.html">Inicio</a>
       <a href="registro.html">Suscribirse</a>
       <a href="lenguajes.html">Lenguajes</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Foto de perfil -->
+    <section>
+      <h2>Tu Perfil</h2>
+      <img src="perfil.jpg" alt="Foto de perfil">
+    </section>
+
+    <!-- Formulario de preferencias -->
+    <section>
+      <h2>Formulario de Preferencias</h2>
+      <form action="#" method="post">
+        <p>¿Qué lenguajes conoces?</p>
+        <label><input type="checkbox" name="lenguajes" value="HTML"> HTML</label><br>
+        <label><input type="checkbox" name="lenguajes" value="CSS"> CSS</label><br>
+        <label><input type="checkbox" name="lenguajes" value="JavaScript"> JavaScript</label><br>
+        <label><input type="checkbox" name="lenguajes" value="Python"> Python</label><br>
+        <label><input type="checkbox" name="lenguajes" value="Java"> Java</label><br><br>
+
+        <label for="horas">¿Cuántas horas de programación estudias al día?</label><br>
+        <input type="number" id="horas" name="horas" min="0" max="24" required><br><br>
+
+        <input type="submit" value="Guardar">
+      </form>
+    </section>
+  </main>
+</body>
+</html>
